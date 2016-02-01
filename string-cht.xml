@@ -1,0 +1,752 @@
+<resources>
+    
+<!--Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+This file is originally apart of Folio for Facebook.
+Copyright notice must remain here if you're using any part of this code.-->
+
+	<!-- Basic Strings -->
+    <string name="app_name">Folio</string>
+    <!-- Replaces Facebook WebView Title -->
+    <string name="app_name_toolbar">Folio</string>
+    <string name="app_name_about">Folio for Facebook</string>
+    <string name="action_settings">設置</string>
+    <string name="end">註銷</string>
+    <!-- Close Drawer -->
+    <string name="closeDrawer">導航欄視圖</string>
+    <!-- Open Drawer -->
+    <string name="openDrawer">打開左側抽屜</string>
+    
+    <!-- Close The App -->
+    <string name="exit">關閉</string>
+    <!-- Save Image On Long Press -->
+    <string name="customize_folio">定制 Folio</string>
+    <string name="customize_folio_hint">改變外觀與佈局</string>
+    <string name="tap_to_set">點擊以應用</string>
+   
+    <string name="status_updated">狀態已更新</string>
+    
+    
+    <!-- FAB LABELS -->
+    <string name="update_status">發布狀態</string>
+    <string name="update_photo">添加圖片</string>
+    <string name="update_share">分享</string>
+    
+    <string name="license_success">主題已啟動</string>
+    <string name="license_failed">主題不可用</string>
+    
+    <string name="show_fab">顯示FAB</string>
+    <string name="show_fab_hint">顯示壹個浮動按鈕以便通過Folio發布Facebook狀態更新。在默認佈局下浮動按鈕不會自動隱藏，當妳移除Facebook工具欄時會自動隱藏，但是這樣會禁用Facebook默認主題與佈局，而且很不穩定。 </string>
+    
+    <string name="loading_video">載入中</string>
+    
+    <string name="hide_sponsored">隱藏贊助商廣告</string>
+    <string name="hide_sponsored_description">移除Facebook贊助商廣告</string>
+    
+    
+    
+    
+    
+          
+    
+    <!-- Folio Drawer -->
+    <string name="quickaccess">快速訪問</string>
+    <string name="newsfeed">最近</string>
+    <string name="trending">熱門</string>
+    <string name="messages">消息</string>
+    <string name="topnews">時事新聞</string>
+    <string name="fbmenu">Facebook菜單</string>
+    
+    <string name="faved">喜愛</string>
+    <string name="friends">朋友</string>
+    <string name="groups">群組</string>
+    <string name="pages">頁面</string>
+    <string name="photos">照片</string>
+    
+    <string name="reminders">提醒</string>
+    <string name="events">活動</string>
+    <string name="onthisday">那年今日</string>
+    <string name="saved">已保存</string>
+    
+    <string name="prefs">首選項</string>
+    <string name="settings">設置</string>
+    <string name="helpfeed">反饋</string>
+    <string name="bugs">上報錯誤</string>
+    
+    <!-- Twitter Drawer -->
+    <string name="discover">發現</string>
+    <string name="connect">相關</string>
+    <string name="twitter_search">搜索</string>
+    <string name="twitter_home">首頁</string>
+    <string name="twitter_me">我</string>
+    <string name="switch_to_folio">e切換到Folio</string>
+    <string name="switch_to_twitter">切換到Twitter</string>
+    <string name="switch_to_gplus">切換到Google+</string>
+    <string name="switch_to_gram">切換到Instagram</string>
+    <string name="switch_to_tum">切換到Tumblr</string>
+    
+    <!-- Add ons -->
+    <string name="addons">社交外掛程式</string>
+    <string name="addons_hint">Twitter需要Twitter外掛程式密匙。所有外掛程式都需要Folio密匙。其他外掛程式不再可用於切換。</string>
+    <string name="enable_twitter">啟用Twitter</string>
+    <string name="enable_google">啟用Google+</string>
+    <string name="enable_instagram">啟用Instagram</string>
+    <string name="enable_tumblr">啟用Tumblr</string>
+    
+    <!-- Removals -->
+    <string name="navigation_pref">導航抽屜項目</string>
+    <string name="navigation_pref_hint">通過移除妳不需要的項目來自定義導航抽屜</string>
+    <string name="recent_nav">移除最近</string>
+    <string name="top_nav">移除時事新聞</string>
+    <string name="facebook_nav">移除消息</string>
+    <string name="trending_nav">移除熱門</string>
+    <string name="friends_nav">移除朋友</string>
+    <string name="groups_nav">移除群組</string>
+    <string name="pages_nav">移除頁面</string>
+    <string name="photos_nav">移除照片</string>
+    <string name="events_nav">移除活動</string>
+    <string name="onday_nav">移除那年今日</string>
+    <string name="saved_nav">移除已保存</string>
+    
+    <!-- News Feed -->
+    <string name="news_feed_preferences">信息流首選項</string>
+    <string name="top_always">最新資訊</string>
+    <string name="top_always_hint">打開Folio時總是加載最新資訊</string>
+    
+    <!-- Fonts -->
+    <string name="font_preference">Facebook字體首選項</string>
+    <string name="larger_font_hint">增大字型大小以提高Facebook易讀性。</string>
+    <string name="font_set">點擊重載Folio以生效</string>
+    <string name="default_font">默認字型大小</string>
+    <string name="medium_font">中等字型大小</string>
+    <string name="large_font">大字型大小</string>
+    <string name="xl_font">特大字型大小</string>
+    <string name="xxl_font">究極大字型大小</string>
+    
+    <string-array name="font_choice">
+       	<item>默認</item>
+       	<item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>特大</item>
+        <item>究極大</item>
+               
+    </string-array>
+    
+    
+    
+    
+    <!-- Overflow Menu Folio -->
+    <string name="top">跳至頂部</string>
+    <string name="fb_settings">Facebook設置</string>
+    <string name="fb_chat">線上好友</string>
+    <string name="fb_recent">最近</string>
+    <string name="refresh">刷新</string>
+    <string name="notifications">消息</string>
+    <string name="notifications_about_hint">消息設置</string>
+    <string name="search">搜索</string>
+    
+    
+   	
+	
+    <!-- Save Image On Long Press  & Sharing-->
+    <string name="savefolio">保存圖片</string>
+    <string name="txt_save_image_success">圖片下載中</string>
+    <string name="txt_save_image_failed">無法保存</string>
+    <string name="share_action">分享當前頁</string>
+    <string name="share_action_subject">Facebook頁面</string>
+    
+    <!-- Save Image On Long Press -->
+    
+    <string name="facebook_app_id">691828467548980</string>
+    <string name="get_started">通過Facebook登陸</string>
+    <string name="send_feedback">Folio回饋</string>
+    <string name="ok">OK</string>
+    <string name="applying_changes">清除緩存中，重啟Folio</string>
+      
+    
+    <string name="cancel">取消</string>
+    
+     <!-- Don't Know Why I'm Giving A Choice Here But...-->
+    
+    <string name="site_preference">選擇Facebook模式 (測試)</string>
+    <string name="site_preference_hint">當前模式: %s.</string>
+    
+    
+    <string name="default_mode">Facebook移動版</string>
+    <string name="basic_mode">Facebook基本版</string>
+    <string name="desktop_mode">桌面模式</string>        
+  
+    
+   
+    
+     <!-- DO NOT TRANSLATE-->
+    <string name="about_text"><![CDATA[
+        
+    
+    <b>Tray Preferences</b><br><br>
+    Copyright 2015 grandcentrix GmbH<br><br>
+   	Licensed under the Apache License, Version 2.0 (the "License");
+   	you may not use this file except in compliance with the License.<br>
+   	You may obtain a copy of the License at:<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0<br><br>
+   	Unless required by applicable law or agreed to in writing, software
+  	distributed under the License is distributed on an "AS IS" BASIS,
+   	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+   	See the License for the specific language governing permissions and
+   	limitations under the License.<br><br><br>
+   	
+   	
+   	<b>Material Preferences</b><br><br>
+   	
+   	The MIT License (MIT)<br><br>
+	Copyright (c) 2015 Jens Driller<br><br>
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br><br>
+	<b>Material Preference Compat</b><br><br>
+	The MIT License (MIT)<br><br>
+	Copyright (c) 2015 Fung Jichun<br><br>
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br>
+	<b>Facebook SDK</b><br><br>
+	Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+	<br><br>
+	You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
+	copy, modify, and distribute this software in source code or binary form for use
+	in connection with the web services and APIs provided by Facebook.
+	<br><br>
+	As with any software that integrates with the Facebook platform, your use of
+	this software is subject to the Facebook Developer Principles and Policies
+	[http://developers.facebook.com/policy/]. This copyright notice shall be
+	included in all copies or substantial portions of the software.
+	<br><br>
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+	FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+	COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+	IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	<br><br>
+	<b>Picasso</b><br><br>
+	Copyright 2013 Square, Inc.<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at<br><br>
+	http://www.apache.org/licenses/LICENSE-2.0<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.<br><br>
+	
+	
+	<b>Tinfoil for Facebook</b><br><br>
+	Copyright 2013 Daniel Velzaco<br><br>
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at<br><br>
+    http://www.apache.org/licenses/LICENSE-2.0<br><br>
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.<br><br>
+    
+    	
+	<b>Clans Floating Action Button</b><br><br>
+	Copyright 2015 Dmytro Tarianyk
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>ActionItemBadge</b><br><br>
+	Copyright 2015 Mike Penz
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>Android-Iconics</b><br><br>
+	Copyright 2015 Mike Penz
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>AdvancedWebView</b><br><br>
+	Copyright 2015 delight.im <info@delight.im>
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>AppRater</b><br><br>
+	Copyright 2013 Andrew Jackson
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+    ]]></string>
+    
+    <string name="about_header">Open source licenses\nNotices for files</string>
+    
+ 
+     <!-- OK To Translate-->
+    
+	<string name="about_change_log"><b>Folio更新日誌</b></string>
+   
+	<string name="copyright">\u00A9 2015 Creative Trends Apps LLC.</string>
+	<string name="allrights">All Rights Reserved.</string>
+	
+	
+	<string name="about_image">Image Credit: Klyph for Facebook</string>
+	
+    
+     <!-- Random Strings Part 1 -->
+     
+    <string name="fb_offline">錯誤</string>    
+    <string name="hello"></string>    
+    <string name="cancelled">已取消</string>    
+    <string name="permission_not_granted">未授權，無法實現指定功能</string>
+    <string name="image_chooser">圖片選擇</string>
+    <string name="loading_link">通過Folio打開</string>   
+    <string name="author">由Jorell Rutledge創建</string>    
+    <string name="title_activity_settings">設置</string>        
+    <string name="title_activity_about">關於Folio</string>
+    <string name="title_activity_about_hint">想瞭解用於Folio的不同庫？可以去Github獲取源碼,關注我們的Facebook與其他方式。</string>
+    
+    <string name="email_author">提交回饋</string>    
+    <string name="choose_email_client">選擇郵件用戶端</string>    
+    <string name="no_network">You\'re當前無網路</string> <!-- You MUST include the \ in your translation. For example... ***You'\re**** is spelled like that -->    
+       
+    <string name="share_link">分享此連結</string>    
+    <string name="long_clicks">長按</string>    
+    <string name="long_clicks_description">長按以保存圖片</string>
+    
+            
+    <!-- Random Strings Part 2 -->
+    <string name="preference_category4">Folio主題</string>
+   
+    
+    
+    <string name="donate_jorell">支援開發者 &amp; 解鎖更多功能</string>
+    <string name="donate_jorell_description">幫助我繼續開發.</string>
+    <string name="donate_jorell_link" translatable="true">http://paypal.me/creativetrends</string>
+    <string name="donate_jorell_about">賞點零花錢唄</string>
+   	
+   	
+    
+     <!-- Bottom Section of Credits-->
+    <string name="hardware_acceleration">硬體加速</string> 
+    <string name="credits_settings">致謝名單</string>
+    <string name="preference_category7">自訂</string>
+    <string name="preference_about_category">關於</string>
+    <string name="preference_set_category">All Set?</string>
+    <string name="preference_donate_category">支付Folio密匙</string>
+    <string name="preference_rest_category">全域默認</string>
+    <string name="preference_category15">Folio佈局設置</string>
+    <string name="preference_facebook_layouts">Facebook佈局設置</string>
+    
+    <string name="fixed_nav">修復Facebook欄</string>
+    <string name="fixed_nav_description">Facebook巡覽列始終置頂</string>
+    
+    <string name="credits_licenses">點擊此處閱讀Folio相關許可檔</string>
+    <string name="credits_licenses_description">開源軟體許可</string>
+    <string name="clear_cache">清除資料</string>  
+    
+    <string name="clear_cache_title">確認？</string> 
+    <string name="clear_cache_message">點擊OK清除Folio\資料，同時會登出帳號。</string> 
+      
+    <string name="clear_cache_description">清除Folio\資料，同時會登出帳號。</string> <!-- You MUST include the \ in your translation. For example... ***You\'re**** is spelled like that -->
+        
+    <string name="preferences_feedback">發送回饋</string>
+    <string name="preferences_feedback_description">遇到問題需要幫助？點擊此處聯繫我們</string>
+    <string name="preferences_feedback_link" translatable="true">mailto:creativetrendzappsllc@gmail.com?Subject=Folio</string>
+    
+    <string name="preferences_rate">給Folio評分讓更多人看到</string>
+    <string name="preferences_rate_hint">在Google Play給Folio評分</string>
+    <string name="preferences_rate_description">給Folio評分</string>
+    
+      
+    <string name="preferences_auto">自動滾動</string>
+    <string name="preferences_auto_hint">自動滾動隱藏Facebook功能表？</string>
+    
+    
+    
+    
+    
+    <!-- All About Credits -->
+        
+    <string name="preference_category6">致謝名單</string>
+    
+    <string name="credits_bejan">Bejan Kanga</string>
+    <string name="credits_bejan_description">Folio &amp; Folio Messenger啟動器圖示與一部分導航圖示設計，同時説明開發軟體部分原始啟動頁。點擊此處訪問他的網站</string>
+    <string name="credits_bejan_link" translatable="true">http://bejank.com</string>
+    
+    <string name="credits_nam">Nam Nghiem</string>
+    <string name="credits_nam_description">説明設計封面圖片，訪問他的Facebook</string>
+    <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrapper&amp;hl=en</string>
+    
+    <string name="credits_dan">Daniel Velazco/nJames Vento</string>
+    <string name="credits_dan_description">在Tinfoil發現webview代碼用以全屏播放。瞭解Tinfoil for Facebook.</string>
+    <string name="credits_dan_link" translatable="true">https://play.google.com/store/apps/details?id=com.danvelazco.fbwrapper&amp;hl=en</string>
+    
+        
+    <string name="credits_beta">Facebook群組</string>
+    <string name="credits_beta_description">加入Facebook上的Creative Trends Beta</string>
+    <string name="credits_beta_link" translatable="true">https://www.facebook.com/groups/creativtrendz/</string>
+    
+    
+    <string name="credits_google_plus">Google+</string>
+    <string name="credits_google_plus_description">J加入Google+中的Folio for Facebook</string>
+    <string name="credits_google_plus_link" translatable="true">https://plus.google.com/communities/116238843585710616103</string>
+    
+    
+    
+    
+    <string name="credits_janae">Janae</string>
+    <string name="credits_janae_description">表現出對科技的興趣以及在父親工作時的耐心</string>
+    
+    
+    <string name="credits_tykeshia">Tykeshia</string>
+    <string name="credits_tykeshia_description">感謝多年以來的支持，謝謝借我的筆記型電腦</string>
+    
+    
+    <string name="credits_facebook">Facebook Inc.</string>    
+    <string name="credits_facebook_description">感謝他們新的圖形介面以及Folio用到的移動頁面 </string>
+    <string name="credits_facebook_link" translatable="true">http://m.facebook.com</string>
+    
+    <string name="credits_google">Google Inc.</string>
+    <string name="credits_google_description">感謝AppCompat v7,以及開源Material Design圖示</string>
+    <string name="credits_google_link" translatable="true">https://developer.android.com/tools/support-library/features.html</string>
+    
+    
+    <string name="preference_category10">Open Source Software Used</string>
+    <string name="preference_category8">開源軟體許可</string> 
+     
+    <string name="credits_tray">Tray Preferences</string>
+    <string name="credits_tray_description">點擊此處fork此項目</string>
+    <string name="credits_tray_link" translatable="true">https://github.com/grandcentrix/tray</string>
+    
+    
+    <string name="credits_material">Folio for Facebook</string>
+    <string name="credits_material_description">點擊此處fork此項目</string>
+    <string name="credits_material_link" translatable="true">https://github.com/creativetrendsapps/folioforfacebook</string>
+    
+        
+    <string name="credits_preferences">Material Preference Compat</string>
+    <string name="credits_preferences_description">點擊此處fork此項目</string>
+    <string name="credits_preferences_link" translatable="true">https://github.com/fython/MaterialPreferenceCompat</string>
+    
+    
+    
+    <!-- All About Translations  -->
+    
+    <string name="preference_category12">Translations</string> 
+           
+    <string name="credits_italian">Fabio Catinella</string>
+    <string name="credits_italian_description">Italiano</string>
+    
+    <string name="credits_spanish">Marco Rubio Asensio</string>
+    <string name="credits_spanish_description">Español</string>
+    
+    <string name="credits_german">Clemens Corell</string>
+    <string name="credits_german_description">Deutsch</string>
+    
+    <string name="credits_brazilian">Vinícius Rubens Pedrinho</string>
+    <string name="credits_brazilian_description">Português de Brasil</string>
+    
+    <string name="credits_turk">Mehmet Çalışkan</string>
+    <string name="credits_turk_description">Türkçe</string>
+    
+    <string name="credits_fren">Jean Philippe</string>
+    <string name="credits_fren_description">Français</string>
+    
+    <string name="credits_pol">seba112</string>
+    <string name="credits_pol_description">Polski</string>
+    
+    <string name="help_trans">Help Translate</string>
+    <string name="help_trans_hint">Tap to help translate Folio into your language.</string>
+   
+    
+        
+    
+    
+    
+    
+    
+    <!-- All About Notifications -->
+    
+    <string name="preference_category5">常規</string>
+    <string name="activate_notifications">Facebook通知</string>
+    <string name="activate_messages">消息通知</string>
+    <string name="activate_friends">好友請求通知</string>    
+    <string name="notifications_service_created">通知啟動</string>
+    <string name="notifications_settings">通知</string>
+    <string name="all_notifications">查看通知</string>
+    <string name="all_messages">查看消息</string>
+    <string name="all_requests">查看好友請求</string>
+    <string name="notification_sound">通知音</string>
+    <string name="notification_sound_description">當前: \u0020</string>
+    <string name="message_sound">消息通知音</string>
+    <string name="message_sound_description">當前: \u0020</string>
+    <string name="silent">靜音</string>
+    <string name="vibrate">震動</string>
+    <string name="led_light">LED消息燈</string>
+    <string name="led_color">LED顏色</string>
+    <string name="led_color_description">當前LED顏色: %s.</string>
+    <string name="notifications_extra">額外</string>
+    <string name="notifications_everywhere">總是提醒</string>
+    <string name="notifications_everywhere_description">只在使用Folio時.</string>
+    <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
+    
+   	
+	
+	<string name="friend_request">&#160;新好友請求</string>
+	<string name="friend_requests">&#160;新好友請求</string>
+	
+	<string name="new_notification">&#160;新通知</string>
+	<string name="new_notifications">&#160;新通知</string>
+	
+		
+	
+             
+    <!-- ALL ABOUT THEMES-->
+    
+    
+    <string name="choose_font_facebook">Facebook字型大小</string>
+    <string name="choose_font_facebook_hint">當前字型大小: %s</string>
+    
+    
+   <string name="preference_category3">Facebook主題</string>
+    
+    <string name="dark_theme">Black Theme</string>
+    
+    <string name="dark_theme_description">切換為black theme.</string>
+    
+    <string name="red_theme">Android Studio Theme</string>
+    
+    <string name="red_theme_description">切換為Dracula theme.</string>
+     
+    
+          
+          
+   	<string-array name="pref_theme_entries">
+        <item>Folio Theme</item>
+        <item>Folio Theme Dark Drawer</item>
+        <item>Pink Theme</item>
+        <item>Pink Theme Dark Drawer</item>
+        <item>Purple Theme</item>
+        <item>Purple Theme Dark Drawer</item>
+        <item>Deep Purple Theme</item>
+        <item>Deep Purple Theme Dark Drawer</item>
+        <item>Dark Theme</item>
+        <item>Orange Theme</item>
+        <item>Orange Theme Dark Drawer</item>
+        <item>Deep Orange Theme</item>
+        <item>Deep Orange Theme Dark Drawer</item>
+        <item>Falcon Theme</item>
+        <item>Falcon Theme Dark Drawer</item>
+        <item>Lime Theme</item>
+        <item>Lime Theme Dark Drawer</item>
+        <item>Green Theme</item>
+        <item>Green Theme Dark Drawer</item>
+        <item>Light Green Theme</item>
+        <item>Light Green Theme Dark Drawer</item>
+        <item>Amber Theme</item>
+        <item>Amber Theme Dark Drawer</item>
+        <item>Yellow Theme</item>
+        <item>Yellow Theme Dark Drawer</item>
+        <item>Red Theme</item>
+        <item>Red Theme Dark Drawer</item>
+        <item>Blue Theme</item>
+        <item>Blue Theme Dark Drawer</item>
+        <item>Light Blue Theme</item>
+        <item>Light Blue Theme Dark Drawer</item>
+        <item>Cyan Theme</item>
+        <item>Cyan Theme Dark Drawer</item>
+        <item>Teal Theme</item>
+        <item>Teal Theme Dark Drawer</item>
+        <item>Brown Theme</item>
+        <item>Brown Theme Dark Drawer</item>
+        <item>Grey Theme</item>
+        <item>Grey Theme Dark Drawer</item>
+        <item>Blue Grey Theme</item>
+        <item>Blue Grey Theme Dark Drawer</item>
+        
+            
+        
+        
+    </string-array>
+    
+   	
+   	   
+   	
+   	<string-array name="pref_theme_fb_entries">
+    <item>Facebook Theme</item>              
+   	<item>Black Theme</item>
+   	<item>Dracula Theme</item>   
+        
+    </string-array>
+
+   	
+   	<string name="quick_bar">快捷欄</string>
+   	<string name="quick_bar_hint">是否顯示Folio快捷欄？</string>
+   	
+   	<string name="quick_bar_on">快捷欄已開啟</string>
+   	
+   	<string name="quick_bar_off">快捷欄已關閉</string>
+   	
+   	       
+    <string name="no_images">關閉圖片</string>
+    <string name="no_images_hint">關閉圖片顯示以減少流量消耗</string>
+      
+        
+    <string name="hide_bar">移除Facebook欄</string>
+    
+    
+    <string name="choose_theme_folio">選擇應用主題</string>
+    <string name="choose_theme_facebook">選擇Facebook主題</string>
+    <string name="choose_theme_folio_hint">當前: %s</string>
+      
+    
+    <string name="hidden_bar">隱藏工具列</string>
+    
+   <string name="sync_problem">哎呀，出錯了。 Folio無法獲取你的通知，請關閉並重啟Folio.</string>
+   
+   <string name="you_have_one_message">你有1條新消息</string>
+  <string name="you_have_n_messages">你有%d條新消息</string>
+  
+  	<string name="file_logger">保存日誌檔</string>
+    <string name="file_logger_description">保存通知服務日誌到外置存儲，需要存儲許可權</string>
+    <string name="file_logger_needs_permission">沒有許可權，保存失敗</string>
+    
+    
+         
+    <string name="interval_pref">標記 &amp; 同步服務</string>
+    <string name="interval_pref_description">通知 &amp; 標記將於每 %s檢查</string>
+          
+                 
+        <string-array name="update_interval">
+       	<item>5 seconds</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>        
+    </string-array>
+    
+    <string-array name="update_interval_values">
+        <item>5000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>10800000</item>
+        <item>21600000</item>        
+    </string-array>
+
+    
+    
+    <string name="not_valid_title">不可用</string>
+    <string name="not_valid_message">當前版本不是從Google Play獲取，功能不可用</string>
+    <string name="get_from_play">Google Play</string>
+    
+    <string name="people_you">People You May Know</string>
+    <string name="people_you_hint">Hide people you may know. (BETA)</string>
+    
+    <string name="download_manager_disabled">下載管理器被禁用，請開啟</string>
+    <string name="cannot_access_storage">無法訪問外置存儲</string>
+    <string name="file_cannot_be_saved">檔無法保存</string>
+    <string name="camera_exception">相機故障</string>
+    
+    <!-- Folio Favorites -->
+    
+    <string name="open_link_title">打開連結</string>
+    <string name="open_link_hint">通過Folio打開外部連結</string>
+    
+    <string name="addPage">添加至喜愛</string>
+    <string name="removePage">從喜愛中移除</string>
+    
+    <string name="remember_title">資訊流位置 (測試)</string>
+    <string name="remember_hint">記住你的流覽位置</string>
+    <string name="faq">FAQ\'s</string>
+    
+          
+</resources>
